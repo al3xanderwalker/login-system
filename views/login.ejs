@@ -9,7 +9,7 @@
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css" />
-    <title>Login System</title>
+    <title>Login</title>
   </head>
   <body>
     <div class="login-container">
@@ -18,7 +18,12 @@
           <div class="title">Login</div>
         </div>
         <div class="body">
-          <form action="/login" method="POST" class="login-form">
+          <form
+            action="/login"
+            method="POST"
+            class="login-form"
+            onsubmit="return ValidateForm()"
+          >
             <div class="input">
               <label>
                 <input type="text" id="email" name="email" required />
