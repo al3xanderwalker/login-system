@@ -82,7 +82,7 @@ body {
     color:rgb(99, 145, 243);
     font-weight: 600;
     font-size:20px;
-    margin-top: 10px;
+    margin-top: 5px;
     border: 2px solid rgb(99, 145, 243);
     transition: background 400ms ease-in-out, color 400ms ease-in-out;
 }
@@ -91,4 +91,8 @@ body {
     box-shadow: none;
     background:rgb(99, 145, 243);
     color:white;
+}
+.error-message{
+    color:red;
+    margin-top:10px;
 }
